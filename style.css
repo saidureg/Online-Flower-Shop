@@ -102,15 +102,15 @@ body {
     margin-top: 32px;
 }
 
-.pngwing-6 {
+#pngwing-6 {
     padding: 110px 78px 0px 76px;
 }
 
-.pngwing-5 {
+#pngwing-5 {
     padding: 117px 47px 51px 47px;
 }
 
-.pngwing-7 {
+#pngwing-7 {
     padding: 67px 75px 0px 75px;
 }
 
@@ -130,4 +130,20 @@ body {
 .discount-content {
     text-align: center;
     width: 650px;
+}
+
+/* Instagram related styles */
+
+.Instagram-content {
+    margin-top: 180px;
+    text-align: center;
+}
+
+.Instagram-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 24px;
+    margin-top: 50px;
+    margin-bottom: 125px;
 }
