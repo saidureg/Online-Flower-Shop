@@ -49,7 +49,7 @@ body {
 }
 
 .banner-content {
-    width: 720px;
+    width: 750px;
     padding-left: 240px;
 }
 
@@ -172,42 +172,46 @@ body {
 
 /* latest-deals related styles */
 
-.latest-deals-content {
-    /* margin-top: 250px; */
-    text-align: center;
-    /* background-image: url("./Flower Asset/Rectangle\ 9.png"); */
-    /* background-repeat: no-repeat; */
+.latest-deals {
+    background-image: url("./Flower Asset/Rectangle 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .latest-deals-container {
-    background-image: url("./Flower Asset/Rectangle\ 9.png");
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    border-radius: 8px;
+    display: inline;
+    height: 100vh;
+    text-align: center;
 }
 
+.latest-deals-content {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 150px 434px 0px 433px;
+}
+
+
 .latest-deals-contact {
-    padding: 264px 287px 121px 287px;
-    width: 80%;
-    /* text-align: center; */
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0px 190px 121px 200px;
 }
 
 .latest-deals-contact input {
-    /* padding: 264px 287px 121px 287px; */
-    width: 50%;
-    height: 50px;
+    width: 60%;
+    height: 30px;
     color: rgba(39, 39, 39, 0.60);
-    padding: 23px;
+    padding: 20px;
     border-radius: 10px;
     border: 0;
     font-size: 16px;
     font-weight: 400;
-    /* margin-bottom: 200px; */
 }
 
-.deals-title {
-    margin-top: 122px;
+.btn-subscribe {
+    margin-left: 10px;
 }
+
 
 /* footer related styles */
 
@@ -221,6 +225,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 120px;
 }
 
 .footer-title {
