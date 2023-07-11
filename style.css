@@ -14,8 +14,22 @@ body {
     background-color: #E55473;
     color: white;
     padding: 20px 45px;
+    border: 0;
     font-size: 20px;
     font-weight: 700;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
 }
 
 /* banner related styles */
@@ -50,4 +64,52 @@ body {
 .banner-img {
     padding-top: 50px;
     padding-right: 240px;
+}
+
+main {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* featured related styles */
+
+.featured-content {
+    margin-top: 180px;
+    /* width: 600px; */
+    text-align: center;
+}
+
+.featured-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+    gap: 24px;
+}
+
+.featured-img {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+.img-text {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 32px;
+}
+
+.pngwing-6 {
+    padding: 110px 78px 0px 76px;
+}
+
+.pngwing-5 {
+    padding: 117px 47px 51px 47px;
+}
+
+.pngwing-7 {
+    padding: 67px 75px 0px 75px;
 }
