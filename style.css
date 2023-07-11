@@ -157,15 +157,56 @@ body {
 
 .birthday-box {
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
+    align-items: center;
     gap: 24px;
     margin-top: 50px;
     margin-bottom: 125px;
 }
 
-.birthday-img{
+.birthday-img {
     border: 0px solid rgba(167, 33, 98, 0.15);
     border-radius: 10px;
     box-shadow: 5px 10px 20px rgba(113, 37, 74, 0.101);
 }
+
+/* latest-deals related styles */
+
+.latest-deals-content {
+    /* margin-top: 250px; */
+    text-align: center;
+    /* background-image: url("./Flower Asset/Rectangle\ 9.png"); */
+    /* background-repeat: no-repeat; */
+}
+
+.latest-deals-container {
+    background-image: url("./Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    border-radius: 8px;
+}
+
+.latest-deals-contact {
+    padding: 264px 287px 121px 287px;
+    width: 80%;
+    /* text-align: center; */
+}
+
+.latest-deals-contact input {
+    /* padding: 264px 287px 121px 287px; */
+    width: 50%;
+    height: 50px;
+    color: rgba(39, 39, 39, 0.60);
+    padding: 23px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+    /* margin-bottom: 200px; */
+}
+
+.deals-title {
+    margin-top: 122px;
+}
+
+/* .deals-offer{} */
